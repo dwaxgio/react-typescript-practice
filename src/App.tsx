@@ -9,6 +9,7 @@ import CInterfaces from "./components/CInterfaces";
 import DFuncionesTypadas from "./components/DFuncionesTypadas";
 import ETiposGenericos from "./components/ETiposGenericos";
 import FClasesYModificadoresDeAcceso from "./components/FClasesYModificadoresDeAcceso";
+import GEnums from "./components/GEnums";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -48,6 +49,8 @@ function App() {
       <ETiposGenericos />
       <hr />
       <FClasesYModificadoresDeAcceso />
+      <hr />
+      <GEnums />
     </div>
   );
 }
