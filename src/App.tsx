@@ -10,6 +10,7 @@ import DFuncionesTypadas from "./components/DFuncionesTypadas";
 import ETiposGenericos from "./components/ETiposGenericos";
 import FClasesYModificadoresDeAcceso from "./components/FClasesYModificadoresDeAcceso";
 import GEnums from "./components/GEnums";
+import HOptionalTypesAndPredefinedValues from "./components/HOptionalTypesAndPredefinedValues";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -51,6 +52,8 @@ function App() {
       <FClasesYModificadoresDeAcceso />
       <hr />
       <GEnums />
+      <hr />
+      <HOptionalTypesAndPredefinedValues />
     </div>
   );
 }
