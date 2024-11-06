@@ -5,7 +5,7 @@ const BTiposDeObjetos = () => {
     isAdmin: boolean;
   };
 
-  const user: User = {name: "Bob", age: 25, isAdmin: false}
+  const user: User = { name: "Bob", age: 25, isAdmin: false };
   return (
     <div>
       <h2>Object Types</h2>

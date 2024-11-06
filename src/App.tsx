@@ -5,6 +5,7 @@ import useCounter from "./hooks/useCounter";
 // KEY CONCEPTS
 import ATiposBasicos from "./components/ATiposBasicos";
 import BTiposDeObjetos from "./components/BTiposDeObjetos";
+import CInterfaces from "./components/CInterfaces";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -31,10 +32,12 @@ function App() {
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <button onClick={reset}>Reset</button>
-      <br/>
-      <ATiposBasicos/>
-      <br/>
-      <BTiposDeObjetos/>
+      <br />
+      <ATiposBasicos />
+      <hr />
+      <BTiposDeObjetos />
+      <hr />
+      <CInterfaces />
     </div>
   );
 }

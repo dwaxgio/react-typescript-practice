@@ -3,6 +3,9 @@ const ATiposBasicos = () => {
   let age: number = 30;
   let name: string = "Alice";
   let isDeveloper: boolean = true;
+  let id: string | number;
+  id = "123";
+  id = 456;
 
   return (
     <div>
@@ -11,6 +14,7 @@ const ATiposBasicos = () => {
         <li>Number: {age}</li>
         <li>String: {name}</li>
         <li>Boolean: {isDeveloper ? "true" : "false"}</li>
+        <li>Union type: {id}</li>
       </ul>
     </div>
   );
