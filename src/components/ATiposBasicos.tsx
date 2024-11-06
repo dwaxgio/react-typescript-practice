@@ -6,9 +6,9 @@ const ATiposBasicos = () => {
 
   return (
     <div>
-      <h2>Tipos Básicos</h2>
+      <h2>Data Types</h2>
       <ul>
-        <li> Number: {age}</li>
+        <li>Number: {age}</li>
         <li>String: {name}</li>
         <li>Boolean: {isDeveloper ? "true" : "false"}</li>
       </ul>

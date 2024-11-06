@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import useCounter from "./hooks/useCounter";
 // KEY CONCEPTS
 import ATiposBasicos from "./components/ATiposBasicos";
+import BTiposDeObjetos from "./components/BTiposDeObjetos";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -32,6 +33,8 @@ function App() {
       <button onClick={reset}>Reset</button>
       <br/>
       <ATiposBasicos/>
+      <br/>
+      <BTiposDeObjetos/>
     </div>
   );
 }
