@@ -7,6 +7,7 @@ import ATiposBasicos from "./components/ATiposBasicos";
 import BTiposDeObjetos from "./components/BTiposDeObjetos";
 import CInterfaces from "./components/CInterfaces";
 import DFuncionesTypadas from "./components/DFuncionesTypadas";
+import ETiposGenericos from "./components/ETiposGenericos";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -41,6 +42,8 @@ function App() {
       <CInterfaces />
       <hr />
       <DFuncionesTypadas />
+      <hr />
+      <ETiposGenericos />
     </div>
   );
 }
