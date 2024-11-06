@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import { useEffect, useRef } from "react";
 import useCounter from "./hooks/useCounter";
-// KEY CONCEPTS
+// TYPESCRIPT KEY CONCEPTS
 import ATiposBasicos from "./components/ATiposBasicos";
 import BTiposDeObjetos from "./components/BTiposDeObjetos";
 import CInterfaces from "./components/CInterfaces";
 import DFuncionesTypadas from "./components/DFuncionesTypadas";
 import ETiposGenericos from "./components/ETiposGenericos";
+import FClasesYModificadoresDeAcceso from "./components/FClasesYModificadoresDeAcceso";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -34,7 +35,8 @@ function App() {
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <button onClick={reset}>Reset</button>
-      <br />
+      <hr />
+      <h1>TYPESCRIPT KEY CONCEPTS</h1>
       <ATiposBasicos />
       <hr />
       <BTiposDeObjetos />
@@ -44,6 +46,8 @@ function App() {
       <DFuncionesTypadas />
       <hr />
       <ETiposGenericos />
+      <hr />
+      <FClasesYModificadoresDeAcceso />
     </div>
   );
 }

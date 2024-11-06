@@ -3,6 +3,7 @@ const ETiposGenericos = () => {
     return value;
   }
   let result = identity<string>("Hello");
+  
   return (
     <div>
       <h2>Generic Types</h2>
