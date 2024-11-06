@@ -6,6 +6,7 @@ import useCounter from "./hooks/useCounter";
 import ATiposBasicos from "./components/ATiposBasicos";
 import BTiposDeObjetos from "./components/BTiposDeObjetos";
 import CInterfaces from "./components/CInterfaces";
+import DFuncionesTypadas from "./components/DFuncionesTypadas";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -38,6 +39,8 @@ function App() {
       <BTiposDeObjetos />
       <hr />
       <CInterfaces />
+      <hr />
+      <DFuncionesTypadas />
     </div>
   );
 }
