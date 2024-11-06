@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { useEffect, useRef } from "react";
 import useCounter from "./hooks/useCounter";
+// KEY CONCEPTS
+import ATiposBasicos from "./components/ATiposBasicos";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -28,6 +30,8 @@ function App() {
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <button onClick={reset}>Reset</button>
+      <br/>
+      <ATiposBasicos/>
     </div>
   );
 }
