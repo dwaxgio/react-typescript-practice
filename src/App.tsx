@@ -18,6 +18,7 @@ import CProps from "./components/react/CProps";
 import DState from "./components/react/DState";
 import EEvent from "./components/react/EEvent";
 import FConditionalRendering from "./components/react/FConditionalRendering";
+import GListsAndKeys from "./components/react/GListsAndKeys";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -74,6 +75,8 @@ function App() {
       <EEvent />
       <hr />
       <FConditionalRendering />
+      <hr />
+      <GListsAndKeys />
     </div>
   );
 }
