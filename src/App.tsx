@@ -17,6 +17,7 @@ import BJSX from "./components/react/BJSX";
 import CProps from "./components/react/CProps";
 import DState from "./components/react/DState";
 import EEvent from "./components/react/EEvent";
+import FConditionalRendering from "./components/react/FConditionalRendering";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -65,12 +66,14 @@ function App() {
       <AFunctionalComponents />
       <hr />
       <BJSX />
-      <hr />     
+      <hr />
       <CProps name="Dwaxgio" />
       <hr />
       <DState />
       <hr />
       <EEvent />
+      <hr />
+      <FConditionalRendering />
     </div>
   );
 }
