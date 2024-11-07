@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TState = () => {
+const DState = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -15,4 +15,4 @@ const TState = () => {
   );
 };
 
-export default TState;
+export default DState;

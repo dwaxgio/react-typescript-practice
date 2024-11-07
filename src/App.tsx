@@ -15,7 +15,8 @@ import HOptionalTypesAndPredefinedValues from "./components/typescript/HOptional
 import AFunctionalComponents from "./components/react/AFunctionalComponents";
 import BJSX from "./components/react/BJSX";
 import CProps from "./components/react/CProps";
-import TState from "./components/react/CState";
+import DState from "./components/react/DState";
+import EEvent from "./components/react/EEvent";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -67,7 +68,9 @@ function App() {
       <hr />     
       <CProps name="Dwaxgio" />
       <hr />
-      <TState />
+      <DState />
+      <hr />
+      <EEvent />
     </div>
   );
 }
