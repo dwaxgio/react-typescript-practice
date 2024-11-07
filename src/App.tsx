@@ -15,6 +15,7 @@ import HOptionalTypesAndPredefinedValues from "./components/typescript/HOptional
 import AFunctionalComponents from "./components/react/AFunctionalComponents";
 import BJSX from "./components/react/BJSX";
 import CProps from "./components/react/CProps";
+import TState from "./components/react/CState";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -63,9 +64,10 @@ function App() {
       <AFunctionalComponents />
       <hr />
       <BJSX />
-      <hr />
-      {/* <CProps /> */}
+      <hr />     
       <CProps name="Dwaxgio" />
+      <hr />
+      <TState />
     </div>
   );
 }
