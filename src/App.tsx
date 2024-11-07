@@ -3,14 +3,16 @@ import "./App.css";
 import { useEffect, useRef } from "react";
 import useCounter from "./hooks/useCounter";
 // TYPESCRIPT KEY CONCEPTS
-import ATiposBasicos from "./components/ATiposBasicos";
-import BTiposDeObjetos from "./components/BTiposDeObjetos";
-import CInterfaces from "./components/CInterfaces";
-import DFuncionesTypadas from "./components/DFuncionesTypadas";
-import ETiposGenericos from "./components/ETiposGenericos";
-import FClasesYModificadoresDeAcceso from "./components/FClasesYModificadoresDeAcceso";
-import GEnums from "./components/GEnums";
-import HOptionalTypesAndPredefinedValues from "./components/HOptionalTypesAndPredefinedValues";
+import ATiposBasicos from "./components/typescript/ATiposBasicos";
+import BTiposDeObjetos from "./components/typescript/BTiposDeObjetos";
+import CInterfaces from "./components/typescript/CInterfaces";
+import DFuncionesTypadas from "./components/typescript/DFuncionesTypadas";
+import ETiposGenericos from "./components/typescript/ETiposGenericos";
+import FClasesYModificadoresDeAcceso from "./components/typescript/FClasesYModificadoresDeAcceso";
+import GEnums from "./components/typescript/GEnums";
+import HOptionalTypesAndPredefinedValues from "./components/typescript/HOptionalTypesAndPredefinedValues";
+// REACT KEY CONCEPTS
+import AFunctionalComponents from "./components/react/AFunctionalComponents";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -54,6 +56,9 @@ function App() {
       <GEnums />
       <hr />
       <HOptionalTypesAndPredefinedValues />
+      <hr />
+      <h1>REACT KEY CONCEPTS</h1>
+      <AFunctionalComponents />
     </div>
   );
 }
