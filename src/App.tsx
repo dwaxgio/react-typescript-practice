@@ -21,6 +21,7 @@ import FConditionalRendering from "./components/react/FConditionalRendering";
 import GListsAndKeys from "./components/react/GListsAndKeys";
 import HHooks from "./components/react/HHooks";
 import IContextAPI from "./components/react/IContextAPI";
+import JControlledForms from "./components/react/JControlledForms";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -83,6 +84,8 @@ function App() {
       <HHooks />
       <hr />
       <IContextAPI />
+      <hr />
+      <JControlledForms />
     </div>
   );
 }
