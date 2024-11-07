@@ -13,6 +13,7 @@ import GEnums from "./components/typescript/GEnums";
 import HOptionalTypesAndPredefinedValues from "./components/typescript/HOptionalTypesAndPredefinedValues";
 // REACT KEY CONCEPTS
 import AFunctionalComponents from "./components/react/AFunctionalComponents";
+import BJSX from "./components/react/BJSX";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -59,6 +60,8 @@ function App() {
       <hr />
       <h1>REACT KEY CONCEPTS</h1>
       <AFunctionalComponents />
+      <hr />
+      <BJSX />
     </div>
   );
 }
