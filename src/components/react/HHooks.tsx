@@ -10,6 +10,7 @@ const HHooks = () => {
 
     return () => clearInterval(interval);
   }, []);
+
   return (
     <div>
       <h2>Hooks</h2>
