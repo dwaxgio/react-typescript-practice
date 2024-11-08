@@ -23,6 +23,8 @@ import HHooks from "./components/react/HHooks";
 import IContextAPI from "./components/react/IContextAPI";
 import JControlledForms from "./components/react/JControlledForms";
 import KConsumingAPI from "./components/react/KConsumingAPI";
+// BOTH
+import TSAndReactControlledForm from "./components/TSAndReactControlledForm";
 
 function App() {
   const { count, increment, decrement, reset } = useCounter(0);
@@ -89,6 +91,9 @@ function App() {
       <JControlledForms />
       <hr />
       <KConsumingAPI />
+      <hr />
+      <h1>BOTH</h1>
+      <TSAndReactControlledForm />
     </div>
   );
 }
