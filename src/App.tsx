@@ -23,7 +23,7 @@ import HHooks from "./components/react/HHooks";
 import IContextAPI from "./components/react/IContextAPI";
 import JControlledForms from "./components/react/JControlledForms";
 import KConsumingAPI from "./components/react/KConsumingAPI";
-// BOTH
+// BOTH TS AND REACT
 import TSAndReactControlledForm from "./components/TSAndReactControlledForm";
 
 function App() {
