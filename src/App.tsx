@@ -1,6 +1,5 @@
-import React from "react";
 import "./App.css";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import useCounter from "./hooks/useCounter";
 // TYPESCRIPT KEY CONCEPTS
 import ATiposBasicos from "./components/typescript/ATiposBasicos";
